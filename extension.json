@@ -1,0 +1,18 @@
+{
+  "name": "helloworld",
+  "displayName": "Hello World",
+  "module": [
+    {
+      "id": "helloworld",
+      "name": "Hello World",
+      "hasReturn": true,
+      "param": [
+        {
+          "param": "input",
+          "displayName": "Your name",
+          "type": "STRING"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "helloworld",
+  "version": "1.0.0",
+  "private": true,
+  "publishConfig": {
+    "access": "restricted"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "logs": "extension-scripts logs",
+    "deploy": "extension-scripts deploy",
+    "deploy:verbose": "extension-scripts deploy -l verbose"
+  },
+  "dependencies": {
+    "@smartsheet-bridge/extension-handler": "0.1.0-beta.2"
+  },
+  "devDependencies": {
+    "@smartsheet-bridge/extension-scripts": "0.1.0-beta.2"
+  }
+}

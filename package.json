@@ -8,13 +8,14 @@
   "main": "src/index.js",
   "scripts": {
     "logs": "extension-scripts logs",
+    "revoke": "extension-scripts revoke",
     "deploy": "extension-scripts deploy",
     "deploy:verbose": "extension-scripts deploy -l verbose"
   },
   "dependencies": {
-    "@smartsheet-bridge/extension-handler": "0.1.0-beta.2"
+    "@smartsheet-bridge/extension-handler": "latest"
   },
   "devDependencies": {
-    "@smartsheet-bridge/extension-scripts": "0.1.0-beta.2"
+    "@smartsheet-bridge/extension-scripts": "latest"
   }
 }

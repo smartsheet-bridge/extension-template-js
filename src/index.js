@@ -1,7 +1,7 @@
-const { createBridgeHandler } = require("@smartsheet-bridge/extension-handler");
-const { helloworld } = require("./helloworld");
+import { createBridgeHandler } from '@smartsheet-bridge/extension-handler';
+import { helloworld } from './helloworld';
 
-exports.main = createBridgeHandler({
+export const main = createBridgeHandler({
   modules: {
     helloworld: helloworld,
   },

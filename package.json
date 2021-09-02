@@ -5,17 +5,11 @@
   "publishConfig": {
     "access": "restricted"
   },
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "logs": "extension-scripts logs",
     "revoke": "extension-scripts revoke",
     "deploy": "extension-scripts deploy",
-    "deploy:verbose": "extension-scripts deploy -l verbose"
-  },
-  "dependencies": {
-    "@smartsheet-bridge/extension-handler": "latest"
-  },
-  "devDependencies": {
-    "@smartsheet-bridge/extension-scripts": "latest"
+    "build": "extension-scripts build"
   }
 }

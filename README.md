@@ -1,6 +1,6 @@
 # JavaScript Template for [Bridge by Smartsheet](https://www.smartsheet.com/platform/bridge) extensions.
 
-A really basic template for JavaScript extensions. See [Documentation](https://smartsheet-bridge.github.io/create-bridge-extension/) for more information on Bridge by Smartsheet extension development.
+A really basic template for JavaScript extensions. See [Documentation](https://github.com/smartsheet-bridge/create-bridge-extension) for more information on Bridge by Smartsheet extension development.
 
 ---
 
